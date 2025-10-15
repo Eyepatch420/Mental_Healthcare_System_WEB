@@ -1,0 +1,9 @@
+# Auto normalize text files
+* text=auto
+
+# Mark known binary/model files
+*.h5 binary
+*.joblib binary
+
+# Don't attempt to normalize files in node_modules
+node_modules/** -text

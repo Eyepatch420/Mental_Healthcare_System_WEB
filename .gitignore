@@ -1,0 +1,23 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# model artifacts
+**/saved_models/
+*.h5
+*.joblib
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
